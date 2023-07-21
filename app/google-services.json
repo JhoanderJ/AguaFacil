@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596676899907",
+    "project_id": "aguafacil-75e1e",
+    "storage_bucket": "aguafacil-75e1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596676899907:android:3e65da0a8f852f35dad0f6",
+        "android_client_info": {
+          "package_name": "com.example.aguafacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596676899907-j4v4hkpicgni8hcqqbkcmnkp0ttc6iqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXb4birYpDgNofZHIn3dSMkffno3n7sj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596676899907-j4v4hkpicgni8hcqqbkcmnkp0ttc6iqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
