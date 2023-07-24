@@ -1,4 +1,4 @@
-package com.example.aguafacil.screens
+package com.example.aguafacil.presentation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -15,7 +15,7 @@ import com.example.aguafacil.ui.theme.blue_100
 
 
 @Composable
-fun FavoriteScreen() {
+fun HomeScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -23,7 +23,7 @@ fun FavoriteScreen() {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Favoritos",
+            text = "Inicio",
             fontSize = MaterialTheme.typography.h3.fontSize,
             fontWeight = FontWeight.Bold,
             color = blue_100
@@ -33,6 +33,6 @@ fun FavoriteScreen() {
 
 @Composable
 @Preview
-fun FavoriteScreenPreview() {
-    FavoriteScreen()
+fun HomeScreenPreview() {
+    HomeScreen()
 }
