@@ -1,8 +1,10 @@
 package com.example.aguafacil.components
 
-import android.annotation.SuppressLint
 import androidx.annotation.DrawableRes
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.ContentAlpha
@@ -11,6 +13,7 @@ import androidx.compose.material.LocalContentColor
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -20,14 +23,20 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 
 
-@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun DashboardScreen() {
     val navController = rememberNavController()
     Scaffold(
         bottomBar = { BottomNavBar(navController = navController) }
-    ) {
-        BottomNavGraph(navController = navController)
+    )
+    { innerPadding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues = innerPadding)
+        ) {
+            BottomNavGraph(navController = navController)
+        }
     }
 }
 

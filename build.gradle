@@ -1,6 +1,10 @@
 buildscript {
     ext {
         compose_ui_version = '1.2.0'
+        coroutine_android = '1.6.4'
+        hilt_dependency = '2.46.1'
+        hilt_navegation = '1.0.0'
+        navegation_compose = '2.6.0'
     }
     dependencies {
         classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.7'
