@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AguaFacil</string>
+    <string name="logo_app">Logo App</string>
+    <string name="see_all">Ver Todo</string>
+    <string name="exclusive_offer">Ofertas Exclusivas</string>
+    <string name="dispensers_offer">Ofertas En Dispensadores</string>
+    <string name="find_products">Busca tu producto</string>
+    <string name="image_profile">Imagen de Perfil</string>
+    <string name="image_product">Imagen Producto</string>
+    <string name="name_profile">Hari Agus Widakdo</string>
+    <string name="email_profile">email@gmail.com</string>
+    <string name="logout">Salir</string>
+    <string name="image_content_empty">Vacio</string>
+    <string name="oops_no_data">Ocurrio un problema</string>
+    <string name="add">Añadir</string>
 </resources>

@@ -16,27 +16,5 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun RequestWater() {
-    Row(
-        horizontalArrangement = Arrangement.spacedBy(10.000000953674316.dp, Alignment.CenterHorizontally),
-        verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier
-            .width(width = 253.dp)
-            .height(height = 45.dp)
-            .clip(shape = RoundedCornerShape(10.000000953674316.dp))
-            .background(color = Color(0xffefe3c8))
-            .padding(start = 50.000003814697266.dp,
-                end = 50.000003814697266.dp,
-                top = 15.004829406738281.dp,
-                bottom = 13.dp)
-    ) {
-        Text(
-            text = "BUY NOW",
-            color = Color(0xff4a2b29),
-            textAlign = TextAlign.Center,
-            style = TextStyle(
-                fontSize = 16.sp),
-            modifier = Modifier
-                .width(width = 86.dp)
-                .height(height = 25.dp))
-    }
+
 }

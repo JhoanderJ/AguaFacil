@@ -13,18 +13,18 @@ import com.example.aguafacil.presentation.screens.ReserveScreen
 fun BottomNavGraph(navController: NavHostController) {
     NavHost(
         navController = navController,
-        startDestination = BottomNavBarScreen.Home.route
+        startDestination = BottomNavBar.Home.route
     ) {
-        composable(route = BottomNavBarScreen.Home.route) {
+        composable(route = BottomNavBar.Home.route) {
             HomeScreen()
         }
-        composable(route = BottomNavBarScreen.Reserved.route) {
+        composable(route = BottomNavBar.Reserved.route) {
             ReserveScreen()
         }
-        composable(route = BottomNavBarScreen.Favorite.route) {
+        composable(route = BottomNavBar.Favorite.route) {
             FavoriteScreen()
         }
-        composable(route = BottomNavBarScreen.Profile.route) {
+        composable(route = BottomNavBar.Profile.route) {
             ProfileScreen()
         }
     }

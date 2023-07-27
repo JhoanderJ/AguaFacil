@@ -43,10 +43,10 @@ fun DashboardScreen() {
 @Composable
 fun BottomNavBar(navController: NavHostController) {
     val screens = listOf(
-        BottomNavBarScreen.Home,
-        BottomNavBarScreen.Reserved,
-        BottomNavBarScreen.Favorite,
-        BottomNavBarScreen.Profile,
+        BottomNavBar.Home,
+        BottomNavBar.Reserved,
+        BottomNavBar.Favorite,
+        BottomNavBar.Profile,
     )
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
@@ -65,7 +65,7 @@ fun BottomNavBar(navController: NavHostController) {
 
 @Composable
 fun RowScope.AddItem(
-    screen: BottomNavBarScreen,
+    screen: BottomNavBar,
     currentDestination: NavDestination?,
     navController: NavHostController,
     @DrawableRes drawableResId: Int

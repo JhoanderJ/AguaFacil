@@ -28,7 +28,7 @@ fun WaterEasyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composa
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
+        typography = TypographyStyle,
         shapes = Shapes,
         content = content
     )

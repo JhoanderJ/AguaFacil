@@ -8,7 +8,7 @@ data class Product(
         val name: String? = null,
         val type: String? = null,
         val price: String? = null,
-        val image: String? = null,
+        val image: Int? = null,
         val description: String? = null,
     )
 }
