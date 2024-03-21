@@ -4,10 +4,10 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.aguafacil.presentation.screens.FavoriteScreen
-import com.example.aguafacil.presentation.screens.HomeScreen
-import com.example.aguafacil.presentation.screens.ProfileScreen
-import com.example.aguafacil.presentation.screens.ReserveScreen
+import com.example.aguafacil.presentation.screens.favorite.FavoriteScreen
+import com.example.aguafacil.presentation.screens.about.HomeScreen
+import com.example.aguafacil.presentation.screens.profile.ProfileScreen
+import com.example.aguafacil.presentation.screens.reserve.ReserveScreen
 
 @Composable
 fun BottomNavGraph(navController: NavHostController) {

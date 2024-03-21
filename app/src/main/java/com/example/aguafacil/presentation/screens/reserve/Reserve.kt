@@ -1,4 +1,4 @@
-package com.example.aguafacil.presentation.screens
+package com.example.aguafacil.presentation.screens.reserve
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

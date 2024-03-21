@@ -1,4 +1,4 @@
-package com.example.aguafacil.presentation.screens
+package com.example.aguafacil.presentation.screens.about
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -23,12 +23,10 @@ import com.example.aguafacil.domain.model.Product
 import com.example.aguafacil.presentation.content.ListContentProduct
 import com.example.aguafacil.presentation.viewmodel.ProductViewModel
 import com.example.aguafacil.ui.theme.DIMENS_24dp
-import com.example.aguafacil.ui.theme.DIMENS_6dp
 import com.example.aguafacil.utils.ResultState
 import com.example.aguafacil.utils.showMsg
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-
 
 @Composable
 fun HomeScreen(
