@@ -43,7 +43,7 @@ class ProductViewModel @Inject constructor(
                             )
                         )
                     }
-                    ResultState.Loading -> {
+                    is ResultState.Loading -> {
                         _productList.value = listOf(
                             ProductState(
                                 isLoading = true
