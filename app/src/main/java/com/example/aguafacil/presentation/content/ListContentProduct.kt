@@ -1,6 +1,11 @@
 package com.example.aguafacil.presentation.content
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Text
@@ -9,7 +14,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import com.example.aguafacil.domain.model.Product
 import com.example.aguafacil.presentation.card.ProductCard
-import com.example.aguafacil.ui.theme.*
+import com.example.aguafacil.ui.theme.DIMENS_16dp
+import com.example.aguafacil.ui.theme.GilroyFontFamily
+import com.example.aguafacil.ui.theme.TEXT_SIZE_24sp
+import com.example.aguafacil.ui.theme.Black
+import com.example.aguafacil.ui.theme.DIMENS_2dp
+import com.example.aguafacil.ui.theme.DIMENS_8dp
 
 @Composable
 fun ListContentProduct(
