@@ -2,9 +2,17 @@ package com.example.aguafacil.presentation.card
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.*
+import androidx.compose.material.Card
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -14,7 +22,19 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.aguafacil.R
 import com.example.aguafacil.domain.model.Product
-import com.example.aguafacil.ui.theme.*
+import com.example.aguafacil.ui.theme.GrayBorderStroke
+import com.example.aguafacil.ui.theme.GilroyFontFamily
+import com.example.aguafacil.ui.theme.DIMENS_80dp
+import com.example.aguafacil.ui.theme.Black
+import com.example.aguafacil.ui.theme.DIMENS_12dp
+import com.example.aguafacil.ui.theme.DIMENS_174dp
+import com.example.aguafacil.ui.theme.DIMENS_20dp
+import com.example.aguafacil.ui.theme.GraySecondTextColor
+import com.example.aguafacil.ui.theme.DIMENS_6dp
+import com.example.aguafacil.ui.theme.DIMENS_24dp
+import com.example.aguafacil.ui.theme.TEXT_SIZE_16sp
+import com.example.aguafacil.ui.theme.TEXT_SIZE_12sp
+import com.example.aguafacil.ui.theme.TEXT_SIZE_18sp
 
 @Composable
 fun ProductCard(
